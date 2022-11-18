@@ -1,43 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template project</title>
-  <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="./css/main.css"> -->
-  <link rel="stylesheet" href="./css/main.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template project</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <nav class="sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#hero">WELCOME</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#work">WORKS</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#about">ABOUT</a>
+          </li>
+          <!-- <li class="sitenav__item">
+            <a class="sitenav__link" href="#">SERVICES</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">SKILLS</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">CONTACT</a>
+          </li> -->
+        </ul>
+      </nav>
+    </header>
+    <!-- /Header -->
 
+    <!-- Site main start -->
+    <main class="site-main">
+      <!-- Hero section start -->
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <a class="logo" href="./index.html">Self introduction</a>
+            <div class="hero__info">
+              <h1 class="hero__title">
+                Trust Allah work <span class="colored">hard</span> dream
+                <span class="colored">big.</span>
+              </h1>
+              <p class="hero__text">
+                I am Rashidbek Xoldarov.<br />Junior frontend developer
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero section finish -->
 
-  <!-- Site header start -->
-  <header class="site-header">
-    <!-- Your header code here -->
-  </header>
-  <!-- Site header finish -->
+      <!-- Works -->
+      <section id="work" class="work">
+        <div class="container">
+          <div class="work__inner">
+            <h2 class="work__title">
+              AWESOME WORKS DONE BY ME
+              <span class="animate-line"></span>
+            </h2>
 
-  <!-- Site main start -->
+            <div class="work__list-wrapper">
+              <h3 class="work__list-title">
+                Project with JavaScrip(real data)
+              </h3>
+              <div class="work__list">
+                <div class="work__item">
+                  <img
+                    class="work__img"
+                    src="./images/yol-belgilari.png"
+                    alt="work images"
+                  />
+                  <div class="work__overlay">
+                    <h4 class="overlay-title">Yo'l belgilari</h4>
+                    <p class="overlay-text">Product</p>
+                    <span class="overlay-triangle">
+                      <a
+                        class="overlay-icon"
+                        target="_blank"
+                        href="https://yol-belgilari-nt.netlify.app/"
+                        >see</a
+                      >
+                    </span>
+                  </div>
+                </div>
+                <div class="work__item">
+                  <img
+                    class="work__img"
+                    src="./images/movies.webp"
+                    alt="work images"
+                  />
+                  <div class="work__overlay">
+                    <h4 class="overlay-title">Movies</h4>
+                    <p class="overlay-text">Product</p>
+                    <span class="overlay-triangle">
+                      <a
+                        class="overlay-icon"
+                        target="_blank"
+                        href="https://movie-full-nt.netlify.app/"
+                        >see</a
+                      >
+                    </span>
+                  </div>
+                </div>
+                <div class="work__item">
+                  <img
+                    class="work__img"
+                    src="./images/books.jpg"
+                    alt="work images"
+                  />
+                  <div class="work__overlay">
+                    <h4 class="overlay-title">Books</h4>
+                    <p class="overlay-text">Product</p>
+                    <span class="overlay-triangle">
+                      <a
+                        class="overlay-icon"
+                        target="_blank"
+                        href="https://books-nt.netlify.app/"
+                        >see</a
+                      >
+                    </span>
+                  </div>
+                </div>
+                <div class="work__item">
+                  <img
+                    class="work__img"
+                    src="./images/taqvim.jpg"
+                    alt="work images"
+                  />
+                  <div class="work__overlay">
+                    <h4 class="overlay-title">Taqvim</h4>
+                    <p class="overlay-text">Product</p>
+                    <span class="overlay-triangle">
+                      <a
+                        class="overlay-icon"
+                        target="_blank"
+                        href="https://taqvim-nt.netlify.app/"
+                        >see</a
+                      >
+                    </span>
+                  </div>
+                </div>
+                <div class="work__item">
+                  <img
+                    class="work__img"
+                    src="./images/weather.webp"
+                    alt="work images"
+                  />
+                  <div class="work__overlay">
+                    <h4 class="overlay-title">Home made shot-03</h4>
+                    <p class="overlay-text">Product</p>
+                    <span class="overlay-triangle">
+                      <a
+                        class="overlay-icon"
+                        target="_blank"
+                        href="https://weather-nt.netlify.app/"
+                        >see</a
+                      >
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-  <main class="site-main">
+            <div class="work__list-wrapper">
+              <h3 class="work__list-title">Project with HTML/CSS fremwork</h3>
+              <div class="work__list">
+                <div class="work__item">
+                  <img
+                    class="work__img"
+                    src="./images/thalby.png"
+                    alt="work images"
+                  />
+                  <div class="work__overlay">
+                    <h4 class="overlay-title">Thalby</h4>
+                    <p class="overlay-text">With Tailwind css</p>
+                    <span class="overlay-triangle">
+                      <a
+                        class="overlay-icon"
+                        target="_blank"
+                        href="https://tholby-nt.netlify.app/"
+                        >see</a
+                      >
+                    </span>
+                  </div>
+                </div>
+                <div class="work__item">
+                  <img
+                    class="work__img"
+                    src="./images//academy.png"
+                    alt="work images"
+                  />
+                  <div class="work__overlay">
+                    <h4 class="overlay-title">Academy</h4>
+                    <p class="overlay-text">With Bootstrap</p>
+                    <span class="overlay-triangle">
+                      <a
+                        class="overlay-icon"
+                        target="_blank"
+                        href="https://digital-marketing-nt.netlify.app/"
+                        >see</a
+                      >
+                    </span>
+                  </div>
+                </div>
+                <div class="work__item">
+                  <img
+                    class="work__img"
+                    src="./images/shortly.png"
+                    alt="work images"
+                  />
+                  <div class="work__overlay">
+                    <h4 class="overlay-title">Shortly</h4>
+                    <p class="overlay-text">With css</p>
+                    <span class="overlay-triangle">
+                      <a
+                        class="overlay-icon"
+                        target="_blank"
+                        href="https://shortly-responsive-nt.netlify.app/"
+                        >see</a
+                      >
+                    </span>
+                  </div>
+                </div>
+                <div class="work__item">
+                  <img
+                    class="work__img"
+                    src="./images/hoo-bank.png"
+                    alt="work images"
+                  />
+                  <div class="work__overlay">
+                    <h4 class="overlay-title">Hoo bank</h4>
+                    <p class="overlay-text">With Tailwind css</p>
+                    <span class="overlay-triangle">
+                      <a
+                        class="overlay-icon"
+                        target="_blank"
+                        href="https://hoo-book-nt.netlify.app/"
+                        >see</a
+                      >
+                    </span>
+                  </div>
+                </div>
+                <div class="work__item">
+                  <img
+                    class="work__img"
+                    src="./images/coffe-roster.png"
+                    alt="work images"
+                  />
+                  <div class="work__overlay">
+                    <h4 class="overlay-title">Coffe Roaster</h4>
+                    <p class="overlay-text">With css</p>
+                    <span class="overlay-triangle">
+                      <a
+                        class="overlay-icon"
+                        target="_blank"
+                        href="https://responsive-coffe-nt.netlify.app/"
+                        >see</a
+                      >
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Works -->
 
-    <!-- Hero section start -->
-    <section class="hero">
-      <!-- Your hero section code here -->
-    </section>
-    <!-- Hero section finish -->
+      <!-- About -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__info">
+              <h2 class="about__title">
+                INTRODUCTION ABOUT ME
+                <span class="animate-line"></span>
+              </h2>
+              <p class="about__text">
+                Front-End React Developer with about 8 months of commercial
+                development experience and a decent level of English. I learned
+                how to integrate with the backend by performing CRUD operations
+                and creating attractive visualizations using Ant Design
+              </p>
+              <ul class="about__list">
+                <li class="about__item">
+                  <p class="about__item-text">Name: Rashidbek Xoldarov</p>
+                </li>
+                <li class="about__item">
+                  <p class="about__item-text">Birthday: 10rd Nov, 1999</p>
+                </li>
+                <li class="about__item">
+                  <p class="about__item-text">Country: UZ, Andijan</p>
+                </li>
+                <li class="about__item">
+                  <p class="about__item-text">Language: Uzbek, English</p>
+                </li>
+              </ul>
+            </div>
+            <img
+              class="about__img"
+              src="./images/programmer.png"
+              alt="porgrammer avatar image"
+              width="500"
+              height="300"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- /About -->
+    </main>
 
-  </main>
+    <!-- Site main finish -->
 
-  <!-- Site main finish -->
+    <!-- Site footer start -->
 
-  <!-- Site footer start -->
-
-  <footer class="site-footer">
-    <!-- Your footer code here -->
-  </footer>
-
-  <!-- Site footer finish -->
-</body>
+    <footer class="site-footer">
+      <!-- Your footer code here -->
+    </footer>
+    <!-- Site footer finish -->
+  </body>
 </html>
